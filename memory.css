@@ -1,12 +1,12 @@
 #memory_board {
-	background: #cccccc;
+	background: #BE90D4;
 	width: 800px;
 	height: 540px;
 	padding: 24px;
 	margin: 0 auto;
 }
 #memory_board > div {
-	background: blue;
+	background: #663399;
 	border: #000 1px solid;
 	width: 71px;
 	height: 71px;

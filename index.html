@@ -30,7 +30,7 @@
 		}
 		function memoryFlipTile(tile,val) {
 			if(tile.innerHTML == "" && memory_values.length < 2) {
-				tile.style.background = '#fff';
+				tile.style.background = '#A854FC';
 				tile.innerHTML = val;
 				if(memory_values.length == 0) {
 					memory_values.push(val);
@@ -54,9 +54,9 @@
 					// odwroc 2 kartoniki z powrotem
 					var tile_1 = document.getElementById(memory_tile_ids[0]);
 					var tile_2 = document.getElementById(memory_tile_ids[1]);
-					tile_1.style.background = 'blue';
+					tile_1.style.background = '#663399';
 					tile_1.innerHTML = "";
-					tile_2.style.background = 'blue';
+					tile_2.style.background = '#663399';
 					tile_2.innerHTML = "";
 					//wyczyść dwie tablice
 					memory_values = [];
